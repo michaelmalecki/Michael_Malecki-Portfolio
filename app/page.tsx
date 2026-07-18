@@ -119,8 +119,8 @@ export default function Portfolio() {
               <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-purple-500/20 to-pink-500/20 blur-xl opacity-70"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-zinc-800">
                 <img
-                  src="/Michael-malecki-photo.jpeg?height=600&width=600"
-                  alt="Shine Kyaw Kyaw Aung"
+                  src="/Michael-malecki-photo.JPEG?height=600&width=600"
+                  alt="Michael Malecki"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
