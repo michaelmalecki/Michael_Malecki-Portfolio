@@ -1,12 +1,12 @@
 # Creative Portfolio
 
-A modern and responsive creative portfolio built using [v0.dev](https://v0.dev) by Vercel.
+My portfolio
 
 ![Creative Portfolio Preview](./preview.png)
 
 ## Live Demo
 
-Check out the live demo: [https://v0-creative-portfolio-o7.vercel.app/](https://v0-creative-portfolio-o7.vercel.app/)
+Check it out at: [https://michaelmalecki.online/](https://michaelmalecki.online/)
 
 ## Features
 
