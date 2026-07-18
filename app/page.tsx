@@ -46,17 +46,24 @@ export default function Portfolio() {
               Full Stack Software Engineer building production-ready web, mobile, and desktop applications with Next.js, React, TypeScript, and modern technologies.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
-              <Button className="relative overflow-hidden group bg-gradient-to-r from-purple-500 to-pink-500 border-0">
-                <span className="relative z-10 flex items-center">
-                  View Projects <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </span>
-                <span className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+              <Button
+                asChild
+                className="relative overflow-hidden group bg-gradient-to-r from-purple-500 to-pink-500 border-0"
+              >
+                <a href="#projects">
+                  <span className="relative z-10 flex items-center">
+                    View Projects{" "}
+                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </span>
+                  <span className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                </a>
               </Button>
               <Button
+                asChild
                 variant="outline"
                 className="border-zinc-700 text-pink-500 hover:text-pink-700 hover:border-zinc-500"
               >
-                Contact Me
+                <a href="#contact">Contact Me</a>
               </Button>
             </div>
             <div className="flex gap-4 pt-4">
@@ -165,7 +172,16 @@ export default function Portfolio() {
                 </div>
 
                 <div className="mt-8">
-                  <Button className="bg-zinc-800 hover:bg-zinc-700 text-white">Download Resume</Button>
+                  <Button asChild className="bg-zinc-800 hover:bg-zinc-700 text-white">
+                    <a
+                      href="/michael-malecki-resume.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      download="Michael-Malecki-Resume.pdf"
+                    >
+                      Download Resume
+                    </a>
+                  </Button>
                 </div>
               </GlassmorphicCard>
             </div>
