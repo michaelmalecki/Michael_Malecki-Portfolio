@@ -165,7 +165,16 @@ export default function Portfolio() {
                 </div>
 
                 <div className="mt-8">
-                  <Button className="bg-zinc-800 hover:bg-zinc-700 text-white">Download Resume</Button>
+                  <Button asChild className="bg-zinc-800 hover:bg-zinc-700 text-white">
+                    <a
+                      href="/michael-malecki-resume.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      download="Michael-Malecki-Resume.pdf"
+                    >
+                      Download Resume
+                    </a>
+                  </Button>
                 </div>
               </GlassmorphicCard>
             </div>

@@ -83,10 +83,18 @@ export function FloatingNav() {
                 </Link>
               ))}
               <Button
+                asChild
                 size="sm"
                 className="ml-2 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-500 border-0"
               >
-                Resume
+                <a
+                  href="/michael-malecki-resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  download="Michael-Malecki-Resume.pdf"
+                >
+                  Resume
+                </a>
               </Button>
             </div>
           )}
@@ -112,8 +120,19 @@ export function FloatingNav() {
                 {item.name}
               </Link>
             ))}
-            <Button className="mt-6 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-500 border-0">
-              Resume
+            <Button
+              asChild
+              className="mt-6 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-500 border-0"
+            >
+              <a
+                href="/michael-malecki-resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                download="Michael-Malecki-Resume.pdf"
+                onClick={handleNavClick}
+              >
+                Resume
+              </a>
             </Button>
           </div>
         </motion.div>
