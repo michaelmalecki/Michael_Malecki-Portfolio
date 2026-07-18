@@ -119,8 +119,8 @@ export default function Portfolio() {
               <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-purple-500/20 to-pink-500/20 blur-xl opacity-70"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-zinc-800">
                 <img
-                  src="/Michael-malecki-photo.jpeg?height=600&width=600"
-                  alt="Shine Kyaw Kyaw Aung"
+                  src="/Michael-malecki-photo.JPEG?height=600&width=600"
+                  alt="Michael Malecki"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -215,7 +215,7 @@ export default function Portfolio() {
               title="Inventory & Accounting Platform"
               description="Cloud-based SaaS platform for small and medium businesses with inventory management, sales tracking, invoicing, and financial reporting."
               tags={["Next.js", "TypeScript", "PostgreSQL", "Node.js"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="/Inventory.jpg?height=400&width=600"
               demoUrl="https://github.com/michaelmalecki"
               repoUrl="https://github.com/michaelmalecki"
             />
@@ -223,7 +223,7 @@ export default function Portfolio() {
               title="Service Scheduling System"
               description="Platform connecting customers with certified technicians for installations and maintenance services with real-time appointment scheduling."
               tags={["React", "Express.js", "MongoDB", "Stripe"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="/service.jpg?height=400&width=600"
               demoUrl="https://github.com/michaelmalecki"
               repoUrl="https://github.com/michaelmalecki"
             />
@@ -231,7 +231,7 @@ export default function Portfolio() {
               title="Authentication & Authorization System"
               description="Secure authentication systems with JWT, refresh tokens, role-based access control, and session management across multiple applications."
               tags={["Node.js", "Express.js", "PostgreSQL", "JWT"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="/authentication.jpg?height=400&width=600"
               demoUrl="https://github.com/michaelmalecki"
               repoUrl="https://github.com/michaelmalecki"
             />
@@ -239,7 +239,7 @@ export default function Portfolio() {
               title="Responsive Web Applications"
               description="Multiple client projects with responsive design, RESTful APIs, and optimized performance across desktop and mobile devices."
               tags={["React", "Next.js", "Tailwind CSS", "TypeScript"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="/web-dev.jpg?height=400&width=600"
               demoUrl="https://github.com/michaelmalecki"
               repoUrl="https://github.com/michaelmalecki"
             />
@@ -247,7 +247,7 @@ export default function Portfolio() {
               title="Dashboard & Analytics"
               description="Administrative dashboards with data visualization, workflow systems, and business intelligence for data-driven applications."
               tags={["React", "D3.js", "Node.js", "PostgreSQL"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="/dashboard-analytics.jpg?height=400&width=600"
               demoUrl="https://github.com/michaelmalecki"
               repoUrl="https://github.com/michaelmalecki"
             />
@@ -255,7 +255,7 @@ export default function Portfolio() {
               title="Mobile Applications"
               description="Cross-platform mobile applications built with React Native for iOS and Android with native performance."
               tags={["React Native", "TypeScript", "Firebase", "Redux"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="/mobile-dev.jpg?height=400&width=600"
               demoUrl="https://github.com/michaelmalecki"
               repoUrl="https://github.com/michaelmalecki"
             />
